@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+  background: #f6f5f7;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  margin: -20px 0 50px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  text-align: center; 
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.cartContainer {
+  flex: 1; 
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-right: 20px;
+}
+
+.cartItemsContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+.cartItem {
+  flex: 1; 
+  background-color: #f6f5f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkoutContainer {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+.paymentMethod {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pickUp {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.completeOrder {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.orderCompleted {
+  text-align: center;
+  margin-top: 20px;
+}

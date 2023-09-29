@@ -1,0 +1,52 @@
+.menuContainer {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.menuItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menuItem {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 300px; 
+}
+
+.menuItemImage {
+  height: 200px;
+  width: 250px
+}
+
+.addToCartButton,
+.checkoutButton {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+.checkoutButton {
+  background-color: black;
+  width: 10%;
+  color: white;
+  padding: 10px 30px;
+  margin: 16px auto; 
+  display: block; 
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20%;
+}

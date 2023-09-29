@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 0;
+  background-color: #222;
+  color: #fff;
+  font-size: 18px;
+}
+
+.logo {
+  max-width: 120px;
+  height: auto;
+  margin: 0 auto; 
+}
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.listItem {
+  margin-right: 50px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  max-width: 12%;
+  height: auto;
+  margin-left: 55%;
+  margin-right: 100px;
+}
+.squareButton {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid rgb(246, 240, 240);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 10px;
+  
+  text-align: center;
+}
+
+.squareButton:hover {
+  background-color: black;
+  color: #fff;
+}
+.cartContainer {
+  display: flex;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+
+.cartLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cartIcon {
+  width: 32px;
+  height: 32px;
+  
+  
+}
+
+.cartText {
+  font-weight: bold;
+}
+
+.signInLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #222;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+  margin-left: 100px;
+}
+
+.signInText {
+  font-size: 16px; 
+}
+
+
+.signInLink:hover {
+  background-color: #444; 
+}
+
+
+.cartButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; 
+  height: 40px; 
+  background-color: #222; 
+  border-radius: 50%; 
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+.cartText {
+  display: none;
+}
