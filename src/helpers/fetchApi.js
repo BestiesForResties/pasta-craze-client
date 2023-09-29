@@ -59,5 +59,4 @@ const fetchAPI = async ({ method, endpoint, urlParams = {}, body = null }) => {
       throw error;
     }
 };
-
-module.exports = fetchAPI;
+export default fetchAPI;
